@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailed(String msg) {
-                Log.e("TAGUtils", "错误：" + msg);
+                Log.e("TAGUtils", "错误消息：" + msg);
             }
 
             @Override
